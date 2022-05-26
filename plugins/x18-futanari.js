@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
 if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
-	let url = anime[Math.floor(Math.random() * anime.length)]
+	let url = futanari[Math.floor(Math.random() * futanari.length)]
 	await conn.sendMessage(m.chat, {
 		contentText: '*ACA TIENES UNA RICA FUTANARI 🔥*',
 		footerText: 'Gata Bot',
@@ -18,7 +18,7 @@ handler.tags = ['internet']
 handler.help = ['futanari']
 module.exports = handler
 
-global.anime = [
+global.futanari = [
   "https://us.rule34.xxx/thumbnails/5388/thumbnail_c7a86a286b25a928948f84ab40038ff8.jpg?6136302",
   "https://us.rule34.xxx/thumbnails/192/thumbnail_89315591ea3d4a3012931bf0ca168c9e.jpg?6135678",
   "https://us.rule34.xxx/thumbnails/5386/thumbnail_986b77565fff5379fcd55444807acc0b.jpg?6134672",

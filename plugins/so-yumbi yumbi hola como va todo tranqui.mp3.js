@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Hola como va todo tranqui|yumbi yumbi/i 
+handler.customPrefix = /🤠|Hola como va todo tranqui|yumbi yumbi/i 
 handler.command = new RegExp
 
 handler.fail = null

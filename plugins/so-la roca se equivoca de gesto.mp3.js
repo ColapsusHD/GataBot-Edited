@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /🤨|TUN|Moai/i 
+handler.customPrefix = /🤨|La roca|TUN|Moai/i 
 handler.command = new RegExp
 
 handler.fail = null

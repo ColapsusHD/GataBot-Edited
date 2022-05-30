@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Chao|Chau/i 
+handler.customPrefix = /Chao|Chau|👋/i 
 handler.command = new RegExp
 
 handler.fail = null

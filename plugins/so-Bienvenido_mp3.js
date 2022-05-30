@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /bienvenido|🤗/i 
+handler.customPrefix = /bienvenido|bienvenida|🤗/i 
 handler.command = new RegExp
 
 handler.fail = null

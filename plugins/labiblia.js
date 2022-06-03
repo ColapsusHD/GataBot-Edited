@@ -4,7 +4,7 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix }) => {
 if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'  
 
-  let pp = './+18.jpg'
+  let pp = './futabuclub.jpg'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
 //    pp = await conn.getProfilePicture(who)

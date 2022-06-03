@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
 if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
 	let url = futanari[Math.floor(Math.random() * futanari.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: '*ACA TIENES UNA RICA FUTANARI 🔥*',
+		contentText: '_*ACA TIENES UNA RICA FUTANARI 🔥*_',
 		footerText: 'Futabu Bot',
 		buttons: [
 			{ buttonId: '.futanari', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }

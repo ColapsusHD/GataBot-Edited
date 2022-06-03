@@ -25,68 +25,26 @@ if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Func
 ┃ 🔥 *IMÁGENES* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}boobs_
-┃»🔞 _${usedPrefix}booty_
-┃»🔞 _${usedPrefix}culo_
-┃»🔞 _${usedPrefix}contenido18 | 18contenido_
-┃»🔞 _${usedPrefix}ecchi_
-┃»🔞 _${usedPrefix}futanari | futanari (PRONTO EN REMODELACION)_
+┃»🔞 _${usedPrefix}futanari|futa|futasolo|futanarisolo | futanarisolo_
 ┃»🔞 _${usedPrefix}futanarionboy | PRONTO!_
 ┃»🔞 _${usedPrefix}futanariongirl | PRONTO!_
 ┃»🔞 _${usedPrefix}futanarivideos | PRONTO!_
 ┃»🔞 _${usedPrefix}futanarivideos2 | PRONTO!_
 ┃»🔞 _${usedPrefix}futanarivideos3 | PRONTO_
-┃»🔞 _${usedPrefix}furro | furry_
 ┃»🔞 _${usedPrefix}hentai_
 ┃»🔞 _${usedPrefix}htrap | trapito_
-┃»🔞 _${usedPrefix}loli2_
-┃»🔞 _${usedPrefix}muslos_
-┃»🔞 _${usedPrefix}muslitos_
-┃»🔞 _${usedPrefix}nsfwass_
-┃»🔞 _${usedPrefix}nsfwbdsm | bdsm_
 ┃»🔞 _${usedPrefix}nsfwcum | cum_
-┃»🔞 _${usedPrefix}nsfwero | ero_
-┃»🔞 _${usedPrefix}nsfwloli_
-┃»🔞 _${usedPrefix}nsfwfemdom | femdom_
-┃»🔞 _${usedPrefix}nsfwfoot | foot_
-┃»🔞 _${usedPrefix}nsfwglass | glass_
-┃»🔞 _${usedPrefix}orgy | orgia_
-┃»🔞 _${usedPrefix}porno_
-┃»🔞 _${usedPrefix}pene_
-┃»🔞 _${usedPrefix}pussy_
-┃»🔞 _${usedPrefix}panties_
-┃»🔞 _${usedPrefix}pack_
-┃»🔞 _${usedPrefix}pack2_
-┃»🔞 _${usedPrefix}pack3_
-┃»🔞 _${usedPrefix}sideboobs | pechos_
-┃»🔞 _${usedPrefix}verlesbianas | imagenlesbians_
 ┃»🔞 _${usedPrefix}xnxxsearch *texto*_
 ┃»🔞 _${usedPrefix}xnxx *link de xnxx*_
-┃»🔞 _${usedPrefix}yaoi_
-┃»🔞 _${usedPrefix}yuri_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *GIF-STICKERS* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}nekogif_
-┃»🔞 _${usedPrefix}pornogif_
-┃»🔞 _${usedPrefix}porno2_
-┃»🔞 _${usedPrefix}yurigif_
-┃»🔞 _${usedPrefix}yaoigif_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *VÍDEOS* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃»🔞 _${usedPrefix}pornovideo | pornovid_
-┃»🔞 _${usedPrefix}pornovidgay | pornogayv_
-┃»🔞 _${usedPrefix}pornolesbivid | pornolesbiv_
-┃»🔞 _${usedPrefix}pornobisexualvid | pornobiv_
-┃»🔞 _${usedPrefix}video_
+┃_*PRONTO*_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ 🔥 *PREMIUM* 🔥
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *Usar bajo su responsabilidad* 
-┃ *Vídeos +18 aleatorios*
-┃ *Puede tardar en enviar*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃»🔞 _${usedPrefix}pornopremium_
 ┗━━━━━━━━━━━━━━━━━━┛
 `.trim()
     let mentionedJid = [who]

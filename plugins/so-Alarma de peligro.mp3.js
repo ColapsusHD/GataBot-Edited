@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /como???|como?|como??|🚨/i 
+handler.customPrefix = /como|como???|como?|como??|🚨/i 
 handler.command = new RegExp
 
 handler.fail = null
